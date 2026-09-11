@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: easyshop-configmap
+  namespace: easyshop-ns
+data:
+  MONGODB_URI : "mongodb://mongodb-svc:27017/easyshop"
+  NODE_ENV: "production"
+  NEXTAUTH_URL: "https://snehaldevopsengineer.online/"
+  NEXT_PUBLIC_API_URL: "https://snehaldevopsengineer.online/api"  
+ 
